@@ -48,8 +48,8 @@ class SignIn extends React.Component {
                         value={this.state.password}
                         handleChange={this.handleChange}
                         required
-                        label="Password" />
-
+                        label="Password" 
+                    />
                     <CustomButton type="submit">Sign In</CustomButton>
                 </form>
             </div>
